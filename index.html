@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="This description for basic webform used for Seo Scenerio"/>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Link font awesome for clock icon & jquery cdn link -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="//jonthornton.github.io/jquery-timepicker/jquery.timepicker.css" />
+  <title>Basic Webform</title>
+
+  <!-- ******* multiselect dropdown bootstrap cdn link ********** -->
+
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css"> -->
+
+</head>
+
+<body>
+  <!-- Web form start -->
+  <div class="contain">
+    <div class="wrapper">
+      <div class="contacts">
+        <h3>Form</h3>
+      </div>
+
+      <div class="form">
+        <form action="" method="">
+          <p>
+            <label>Name</label>
+          </p>
+          <div class="input">
+            <input type="text" />
+          </div>
+          <p>
+            <label>College</label>
+          </p>
+          <div class="input">
+            <select name="College" id="College">
+              <option value="">Select</option>
+              <option value="Jnu">Jnu</option>
+              <option value="Jecrc">Jecrc</option>
+              <option value="Poornima">Poornima</option>
+            </select>
+          </div>
+
+          <p>
+            <label>Branch</label>
+          </p>
+
+          <div class="input">
+            <select name="Branch" id="Branch">
+              <option value="">Select</option>
+              <option value="Electrical">Electrical</option>
+              <option value="Mechanical">Mechanical</option>
+              <option value="Civil">Civil</option>
+            </select>
+          </div>
+
+          <p>
+            <label>Admission Type</label>
+          </p>
+
+          <div class="input">
+            <select name="Admission_type" id="Admission_type">
+              <option value="">Select</option>
+              <option value="Regular">Regular</option>
+              <option value="Private">Private</option>
+              <option value="Distance">Distance</option>
+            </select>
+          </div>
+
+          <p>
+            <label for="Requirement">Requirement</label>
+          </p>
+          <div class="input">
+            <div class="col-33">
+              <label>
+                <input type="radio" class="green-style" id="High" name="Requirement" value="High" />
+                High
+              </label>
+            </div>
+            <div class="col-33">
+              <label>
+                <input type="radio" class="green-style" id="Medium" name="Requirement" value="Medium" />
+                Medium
+              </label>
+            </div>
+            <div class="col-33">
+              <label>
+                <input type="radio" class="green-style" id="Low" name="Requirement" value="Low" />
+                Low
+              </label>
+            </div>
+          </div>
+          <p>
+            <label>Start Time</label>
+          </p>
+          <div class="input input_time date_time">
+            <input type="text" class="timepicker" />
+            <span>
+              <i class="fas fa-clock"></i>
+            </span>
+          </div>
+
+          <p>
+            <label>End Time</label>
+          </p>
+
+          <div class="input input_time date_time">
+            <input type="text" class="timepicker" />
+            <span>
+              <i class="fas fa-clock"></i>
+            </span>
+          </div>
+          <p>
+            <label>Send to</label>
+          </p>
+          <div class="input">
+            <select name="send_to" id="send_to">
+              <option value="">Select value</option>
+              <option value="User1">User1</option>
+              <option value="User2">User2</option>
+              <option value="User3">User3</option>
+            </select>
+          </div>
+          <p>
+            <label>Send via</label>
+          </p>
+          <div class="input">
+            <div class="col-33">
+              <label for="Sms">
+                <input type="checkbox" class="green-style" id="Sms" name="send_via" value="High" />
+                Sms
+              </label>
+            </div>
+            <div class="col-33">
+              <label>
+                <input type="checkbox" class="green-style" id="Call" name="send_via" value="Call" />
+                Call
+              </label>
+            </div>
+
+            <div class="col-33">
+              <label>
+                <input type="checkbox" class="green-style" id="Whatsapp" name="send_via" value="Whatsapp" />
+                Whatsapp
+              </label>
+            </div>
+            <div class="col-33">
+              <label>
+                <input type="checkbox" class="green-style" id="Email" name="send_via" value="Email" />
+                Email
+              </label>
+            </div>
+          </div>
+
+          <p>
+            <label>Description</label>
+          </p>
+          <div class="input">
+            <textarea name="" id="" cols="70" rows="4"></textarea>
+          </div>
+          <p></p>
+
+          <div class="buttons">
+            <div class="col-33">
+              <button>Add</button>
+              <button>Cancel</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- Web form end -->
+
+  <!-- time picker with jquery cdn link -->
+ 
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="//jonthornton.github.io/jquery-timepicker/jquery.timepicker.js"></script>
+  <script src="main.js"></script>
+  
+</body>
+
+</html>
